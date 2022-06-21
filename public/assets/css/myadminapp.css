@@ -1,0 +1,196 @@
+.rounded-md {
+    border-radius: 15px;
+}
+.rounded-top-md {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.rounded-bottom-md {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.myshadow {
+    box-shadow: 0 0.3rem 0.8rem rgba(17, 26, 34, 0.215) !important;
+}
+.small-box {
+    border-style: solid;
+    border-width: 1px !important;
+    border-color: #4e5b66;
+    background-color: #4e5b66 !important;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+.small-box .ion {
+    color: #1c252e80 !important;
+}
+
+.small-box:hover {
+    box-shadow: 0 0.3rem 0.8rem rgba(17, 26, 34, 0.215) !important;
+    background-color: #222f3a !important;
+    border-style: solid;
+    border-width: 1px !important;
+    border-color: #4b78a0 !important;
+}
+
+ion-icon {
+    pointer-events: none;
+}
+
+.small-box:hover .ion {
+    color: #636e79dd !important;
+}
+
+.image-previewer {
+    cursor: pointer;
+}
+
+.user-box {
+    transition: transform 0.2s;
+    border-style: solid;
+    border-width: 1px !important;
+    border-color: #343a40 !important;
+}
+
+.user-box:hover {
+    box-shadow: 0 0.3rem 0.8rem rgba(17, 26, 34, 0.215) !important;
+    background-color: #222f3a !important;
+    border-style: solid;
+    border-width: 1px !important;
+    border-color: #476b8b !important;
+}
+
+.inner p {
+    font-size: 20px !important;
+    line-height: 1.5rem;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(180, 180, 180);
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#waktu {
+    opacity: 1;
+    overflow: hidden;
+    height: 75px;
+    transition: 0.3s;
+}
+
+.sidebar-collapse #waktu {
+    opacity: 0;
+    height: 0px;
+}
+
+.tombol:hover {
+    background-color: #eeeeee;
+    color: rgb(255, 255, 255) !important;
+    opacity: 1 !important;
+    transform: translateY(-3px);
+}
+
+.bg-selesai {
+    background-color: rgb(25, 124, 99) !important;
+    color: #d4d4d4;
+}
+
+.btn-primary {
+    background-color: rgb(0, 123, 255) !important;
+    border-width: 1px;
+    border-color: rgb(0, 123, 255);
+    transition: 0.4s;
+}
+
+.btn-primary:hover {
+    background-color: #dbebfd !important;
+    border-color: #007bff !important;
+    color: rgb(25, 93, 165) !important;
+}
+
+.datepicker {
+    color: rgb(235, 235, 235) !important;
+    background-color: #34373a !important;
+}
+
+.datetimepicker {
+    color: rgb(235, 235, 235) !important;
+    background-color: #34373a !important;
+}
+
+.datetimepicker {
+    z-index: 99999;
+    /* color: rgb(235, 235, 235) !important;
+    background-color: #34373a !important; */
+}
+
+.modal-body .btn {
+    background-color: #343a40 !important;
+    border-color: #6c757d !important;
+    color: rgb(235, 235, 235) !important;
+}
+
+#tombolKalender .btn {
+    background-color: #343a40 !important;
+    border-color: #6c757d !important;
+    color: rgb(235, 235, 235) !important;
+}
+
+.text-primary {
+    color: rgb(118, 184, 255) !important;
+}
+.text-primary:hover {
+    color: rgb(255, 255, 255) !important;
+}
+
+.btn-outline-primary {
+    color: rgb(118, 184, 255) !important;
+    border-color: rgb(118, 184, 255) !important;
+}
+
+#editPeriode .bg-secondary,
+#tambahPeriode .bg-secondary {
+    background-color: #3f484e !important;
+}
+
+.text-success {
+    color: #0fd6a4 !important;
+}
+
+.btn-warning {
+    border-width: 0px !important;
+    border-style: none !important;
+}
+
+.swal2-popup {
+    background-color: #222222 !important;
+}
+
+.swal2-icon-success .swal2-timer-progress-bar {
+    background-color: #00bc8c !important;
+}
+
+.swal2-icon-error .swal2-timer-progress-bar {
+    background-color: #f27474 !important;
+}
+
+/* .swal2-confirm {
+    background-color: #00bc8c !important;
+    border-radius: 30px !important;
+    border-width: 0px !important;
+    box-shadow: #00bc8c !important;
+    border-style: none !important;
+} */
+
+/* .swal2-actions {
+    color: #00bc8c !important;
+    background-color: #00bc8c !important;
+    border-radius: 30px !important;
+    border-width: 0px !important;
+} */
